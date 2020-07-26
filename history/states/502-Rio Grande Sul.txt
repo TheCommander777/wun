@@ -1,0 +1,35 @@
+
+state={
+	id=502
+	name="STATE_502"
+	manpower = 10959600
+	
+	state_category = metropolis
+
+	resources={
+		oil=22
+		steel=48
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3 
+			dockyard = 2
+			air_base = 8
+			10447 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			10447 3 
+		}
+
+	}
+
+	provinces={
+		1542 1585 1598 4436 4575 4589 4604 5110 7581 7594 7638 10447 12396 
+	}
+}

@@ -1,0 +1,50 @@
+
+state={
+	id=16
+	name="STATE_16"
+	manpower = 8038500
+	
+	state_category = megalopolis
+	
+
+	history={
+		owner = FRA
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 4
+			industrial_complex = 12
+			anti_air_building = 5
+			air_base = 5
+			11506 = {
+				bunker = 10
+
+			}
+			9523 = {
+				bunker = 10
+
+			}
+			11491 = {
+				bunker = 10
+
+			}
+			9725 = {
+				bunker = 10
+
+			}
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 4
+				industrial_complex = 6
+			}
+		}
+	}
+
+	provinces={
+		6547 6949 9507 9523 9534 9725 11491 11506 11518 
+	}
+}

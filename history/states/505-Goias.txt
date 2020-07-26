@@ -1,0 +1,29 @@
+
+state={
+	id=505
+	name="STATE_505"
+	
+	state_category = large_city
+
+	resources={
+		rubber=36 # was: 4
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+
+		}
+		add_core_of = BRA
+
+	}
+
+	provinces={
+		2168 5115 5148 5151 5208 8140 12959 12987 
+	}
+	manpower=7662200
+	buildings_max_level_factor=1.000
+}

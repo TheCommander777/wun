@@ -1,0 +1,88 @@
+﻿units = {
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Indian Fleet"			
+		naval_base = 4245
+		task_force = {
+			name = "Indian Ocean Squadron"
+			location = 4245
+			ship = { name = "HMIS Calcutta" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Calcutta Class" } } }
+			ship = { name = "HMIS Bengal" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Calcutta Class" } } }
+			ship = { name = "HMIS Rangoon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Calcutta Class" } } }
+			ship = { name = "HMIS Karachi" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Calcutta Class" } } }
+			ship = { name = "HMIS Mysore" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "Mysore Class" } } }
+			ship = { name = "HMIS Indian Ocean" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "Mysore Class" } } }
+			ship = { name = "HMIS Marvelous" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "Mysore Class" } } }
+			ship = { name = "HMIS Delhi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS Triplicane" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS Gauhati" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS DD-23" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-24" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-25" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-26" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-27" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-28" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-29" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			
+		}
+	}
+	fleet = {
+		name = "Asian Fleet"			
+		naval_base = 1330
+		task_force = {
+			name = "Asian Squadron"
+			location = 1330
+			ship = { name = "HMIS Orion" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Orion Class" } } }
+			ship = { name = "HMIS Monarch" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Orion Class" } } }
+			ship = { name = "HMIS Reduction" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "Mysore Class" } } }
+			ship = { name = "HMIS Tinnevelly" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS Waltair" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS Bejawada" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS DD-30" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-31" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-32" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-33" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-34" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-35" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-36" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-37" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "Chambel Class" } } }
+			ship = { name = "HMIS DD-15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-22" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+		}
+	}
+	fleet = {
+		name = "Imperial Reserve Fleet"			
+		naval_base = 9975
+		task_force = {
+			name = "Reserve Fleet"
+			location = 9975
+			ship = { name = "HMIS King Edward VII" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = RAJ version_name = "King Edward VII Class" } } }
+			ship = { name = "HMIS Commonwealth" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = RAJ version_name = "King Edward VII Class" } } }
+			ship = { name = "HMIS Mandalay" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS Belgaum" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "HMIS DD-1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			ship = { name = "HMIS DD-7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Gandak Class" } } }
+			
+			
+			}
+		}
+	}
+}

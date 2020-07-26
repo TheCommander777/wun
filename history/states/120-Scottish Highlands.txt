@@ -1,0 +1,36 @@
+state= {
+	id=120
+	name="STATE_120"
+	manpower = 465873
+	
+	state_category = rural
+
+	resources={
+		chromium=22 # was: 2
+		tungsten=46 # was: 22
+		aluminium=49 # was: 12
+	}
+
+	history= {
+		add_core_of = SCO
+		owner = ENG
+		victory_points = { 11064 1 }
+		buildings = {
+			infrastructure = 6
+			anti_air_building = 2
+			industrial_complex = 2
+			air_base = 1
+			11064 = {
+				naval_base = 10	
+			}
+			6196 = {
+				naval_base = 1	
+			}
+		}
+		add_core_of = ENG
+	}
+
+	provinces=
+	{
+131 284 3159 3178 3373 6046 6062 6104 6196 6205 9075 9090 11064 11161 11266 	}
+}

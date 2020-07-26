@@ -1,0 +1,607 @@
+﻿division_template = {
+	name = "Divisão de Infanteria"		# Infantry Division
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+  	      artillery = { x = 0 y = 1 }
+ 	}
+}
+division_template = {
+	name = "Divisão de Guarnição"		# Garrison Division
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Divisão de Cavalaria"  		# Cavalry Division
+	division_names_group = BRA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+division_template = {
+	name = "Guarda Imperial"  		# Guard Infantry
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+		infantry = { x = 3 y = 4}
+	}
+	priority = 1
+	support = {
+  	      engineer = { x = 0 y = 0 }
+  	      artillery = { x = 0 y = 1 }
+ 	}
+}
+
+
+units = {
+	##### Exército Brasileiro #####
+	division= {	# "1a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10980 # Rio de Janiero
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "2a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10513 # Sao Paulo
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "3a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "4a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 5168 # Recife
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "5a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 8242 # Belo Horizonte
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "6a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 10980 # Rio de Janiero
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "7a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 10513 # Sao Paulo
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "8a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "9a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 5168 # Recife
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "10a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 8242 # Belo Horizonte
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "11a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 10980 # Rio de Janiero
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "12a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 10513 # Sao Paulo
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "13a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "14a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 5168 # Recife
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "15a Divisão de Infanteria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 8242 # Belo Horizonte
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# "1a Divisão da Guarda"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 10980 # Rio de Janiero
+		division_template = "Guarda Imperial"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+
+	}
+	division= {	# "2a Divisão da Guarda"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 10513 # Sao Paulo
+		division_template = "Guarda Imperial"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+
+	}
+	division= {	# "3a Divisão da Guarda"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 18
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Guarda Imperial"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.4
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 24
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.4
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.4
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 28
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 29
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 30
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 31
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 32
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 33
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 34
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 35
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 36
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 37
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 38
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 39
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 40
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+		division= {	# "Guarnição"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 41
+		}
+		location = 5168 # Nordeste
+		division_template = "Divisão de Guarnição"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+
+	}
+
+	division= {	# "1a Divisão de Cavalaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12853 # Belem
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "2a Divisão de Cavalaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 5156 # Curitiba
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+
+air_wings = {
+	### Aviação Militar -- Rio de Janiero
+	500 = {
+		# Fighter Air Group -- Boeing 256s
+		fighter_equipment_0 =  {
+			owner = "BRA" 
+			amount = 24
+		}
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BRA"
+		}
+		requested_factories = 5
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BRA"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}
