@@ -1,38 +1,28 @@
 state={
-	id=75
-	name="STATE_75"
-	manpower = 2598400
+	id=108
+	name="STATE_108"
 	resources={
-		steel=4 # was: 6
-		oil = 2 # was: 4
+		steel=3.000
 	}
 
-	state_category = city
-
 	history={
+		victory_points = {
+			9602 3
+		}
 		owner = AUS
-		victory_points = {
-			3569 20
-		}
-		victory_points = {
-			6562 5
-		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 4
-			air_base = 5
+			infrastructure = 4
 
 		}
-		add_core_of = CZE
-		add_core_of = AUS
+		add_core_of = YUG
+		add_core_of = SER
 
-		1939.3.14 = {
-			owner = GER
-			controller = GER
-		}
 	}
 
 	provinces={
-		569 3553 3569 6562 6576 6590 11511 
+		630 3922 3939 6940 6953 6970 6998 9602 9756 9849 9874 9890 9906 11887 
 	}
+	manpower=1533000
+	buildings_max_level_factor=1.000
+	state_category=town
 }
