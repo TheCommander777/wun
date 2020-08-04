@@ -1,26 +1,19 @@
-state=
-{
+state={
 	id=74
 	name="STATE_74"
 	manpower = 820000
 	
 	state_category = rural
 	
-	
-	history=
-	{
+	history={
+		owner = AUS
+		add_core_of = CZE
 		victory_points = {
 			3583 5
 		}
-		owner = AUS
-		controller = CZE
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
-		}
-		add_core_of = CZE
-		add_core_of = AUS
-
 		}
 	}
 	provinces= {

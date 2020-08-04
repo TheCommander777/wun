@@ -14,20 +14,8 @@ set_technology = {
 	early_fighter = 1
 }
 
-# DIPLOMACY / WAR 36
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
-
-	declare_war_on = {
-		target = CZE
-		type = annex_everything
-	}
-}
-
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = neutrality
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -70,10 +58,10 @@ if = {
 set_stability = 0.70
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
+	name = "Otto von Habsburg"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
-	expire = "1965.1.1"
+	picture = "Portrait_Austria_Otto_Von_Habsburg.dds"
+	expire = "1976.1.1"
 	ideology = centrism
 	traits = {
 		#
@@ -83,7 +71,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Otto von Habsburg"
 	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx\leaders\AUS\Portrait_Austria_Otto_Von_Habsburg.dds"
+	picture = "Portrait_Austria_Otto_Von_Habsburg.dds"
 	expire = "1973.1.1"
 	ideology = socialism
 	traits = {

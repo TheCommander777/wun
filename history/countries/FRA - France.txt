@@ -216,17 +216,14 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_protected_by_the_maginot_line
 	limited_conscription
 }
-
-#give_guarantee = CZE
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
 	name = "Édouard Daladier"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	picture = "Portrait_FRA_Eduard_Daladier.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -239,7 +236,7 @@ create_country_leader = {
 	desc = "POLITICS_JEAN_MARIE_DESC"
 	picture = "Portrait_France_Jean_Marie.dds"
 	expire = "1965.1.1"
-	ideology = 	despotism
+	ideology = despotism
 	traits = {
 		
 	}
