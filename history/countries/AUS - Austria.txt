@@ -17,7 +17,7 @@ set_technology = {
 # DIPLOMACY / WAR 36
 if = {
 	limit = {
-		has_start_date < 1936.01.01
+		has_start_date < 1936.01.02
 	}
 
 	declare_war_on = {
@@ -27,16 +27,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarian
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 48
+	neutrality = 78
 	fascism = 1
-	democratic = 50
+	democratic = 20
 	communism = 1
 }
 
