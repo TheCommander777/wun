@@ -793,7 +793,7 @@ units = {
 	}
 	division= {	  
 		name = "Southern Africa Force"
-		location = 12911
+		location = 1939
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
