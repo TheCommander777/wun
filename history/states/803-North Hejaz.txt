@@ -1,29 +1,26 @@
 state={
-	id=679
-	name="STATE_679"
-	manpower = 1511000
+	id=803
+	name="STATE_803"
+	manpower = 611000
 	
 	state_category = pastoral
 
 	history={
-		owner = TUR
+		owner = JOR
 		add_core_of = TUR
 		victory_points = {
-			1033 1 
+			12455 1 
 		}
 		victory_points = {
-			12883 1 
+			5099 1 
 		}
 		buildings = {
 			infrastructure = 3
-			12883 = {
-				naval_base = 5
-			}
 		}
 		add_core_of = SAU
 	}
 
 	provinces={
-		1033 1923 2027 2033 2095 4981 5037 8073 8092 12101 12883 
+		12455 7970 5099 10901 
 	}
 }
