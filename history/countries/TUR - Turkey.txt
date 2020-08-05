@@ -25,6 +25,8 @@ if = {
 	set_autonomy = {
 		target = SAU
 		autonomous_state = autonomy_integrated_puppet
+		target = IRQ
+		autonomous_state = autonomy_integrated_puppet
 }
 
 set_technology = {
@@ -80,7 +82,6 @@ set_popularities = {
 
 set_stability = 0.55
 
-# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
 	name = "Ismet Inönü"
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
