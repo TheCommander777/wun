@@ -256,11 +256,11 @@ units= {
 		
 	}
 	fleet = {
-		name = "Mittelmeerflotte"			
-		naval_base = 9994  # Tunis
+		name = "Baltische Flotte"			
+		naval_base = 321  # Tunis
 		task_force = {
-			name = "Mittelmeerflotte"
-			location = 9994  # Kiel
+			name = "Baltische Flotte"
+			location = 321  # Kiel
 			# 1. Unterseebootsflottille
 			ship = { name = "SMS Bayern" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
 			ship = { name = "SMS Baden" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }

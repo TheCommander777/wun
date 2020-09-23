@@ -1004,7 +1004,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 7069
+		location = 12830
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1014,7 +1014,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 7100
+		location = 12975
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1024,7 +1024,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 7132
+		location = 9962
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1034,7 +1034,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 1145
+		location = 2220
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1044,7 +1044,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 12051
+		location = 4879
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1054,7 +1054,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 7081
+		location = 678
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1064,7 +1064,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 12034
+		location = 549
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1074,7 +1074,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 9994
+		location = 1346
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1084,7 +1084,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 1149
+		location = 9503
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1094,7 +1094,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 11954
+		location = 9559
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1104,7 +1104,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 1130
+		location = 2196
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1254,7 +1254,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 1130
+		location = 2196
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1264,7 +1264,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 1130
+		location = 2196
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1274,7 +1274,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 1130
+		location = 2196
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
@@ -1546,7 +1546,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 10
 		}
-		location = 11497
+		location = 95037
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
