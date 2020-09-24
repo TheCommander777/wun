@@ -798,9 +798,10 @@
  STATE_797:0 "Kicevo"
  STATE_798:0 "Eupen-Malmedy"
  STATE_799:0 "Nordschleswig"
- STATE_800:0 "Kaiser-Wilhelmsland"
  STATE_801:0 "East Jordan"
  STATE_802:0 "Inner Hejaz
  STATE_803:0 "North Hejaz"
  STATE_804:0 "Santa Catarina"
  STATE_805:0 "Porta Pora"
+ STATE_806:0 "Weihaiwei"
+ STATE_807:0 "Kaiser-Wilhelmsland"
