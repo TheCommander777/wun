@@ -81,8 +81,9 @@ units= {
 		task_force = {				
 			name = "3ème Région Navale"			
 			location = 911 # Toulon	
-			ship = { name = "Courbet" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }        
-			ship = { name = "Paris" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
+			ship = { name = "Courbet" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } } 
+			ship = { name = "France" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }        
+			ship = { name = "Jean Bart" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
 			ship = { name = "Algérie" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Algérie Class" } } }			
 			ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
@@ -320,9 +321,9 @@ instant_effect = {
 	# BC: Dunkerque (Comm. 16-Apr, 1937)	
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = "FRA" 
-			version_name = "Dunkerque Class"
+			version_name = "République Class"
 		}
 		name = "Dunkerque" 
 		requested_factories = 1
@@ -332,9 +333,9 @@ instant_effect = {
 	# BB: Richelieu	
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = "FRA" 
-			version_name = "Richelieu Class"
+			version_name = "République Class"
 		}
 		requested_factories = 1
 		progress = 0.10
