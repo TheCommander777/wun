@@ -7,7 +7,7 @@ state={
 		victory_points = {
 			6940 3 
 		}
-		owner = YUG
+		owner = AUS
 		buildings = {
 			infrastructure = 2
 
