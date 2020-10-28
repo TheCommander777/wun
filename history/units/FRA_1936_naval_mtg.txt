@@ -10,8 +10,35 @@ units= {
 			name = "1ère Région Navale"			
 			location = 575 # Dunkerque			
 			# 8e Division des Contre-Torpilleurs
+			ship = { name = "Bourgogne" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Bourgogne Class" } } }
+			ship = { name = "Carnot" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Bourgogne Class" } } }
+			ship = { name = "Massena" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Bourgogne Class" } } }
+			ship = { name = "Bouvet" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Bourgogne Class" } } }
 			ship = { name = "Le Terrible" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
 			ship = { name = "L'Audacieux" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
+			ship = { name = "DD-33" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-34" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-35" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-36" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-37" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-38" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-39" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-40" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-41" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-42" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-43" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-43" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-44" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-45" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-46" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-47" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-48" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-49" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-50" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-51" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-52" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-53" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-54" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
 		}
 		task_force = {				
 			name = "Sous-Marins Force du Nord"			
@@ -29,14 +56,62 @@ units= {
 		naval_base = 3552 # Brest
 		task_force = {
 			name = "2ème Région Navale"
-			location = 3552 # Brest			
-			ship = { name = "Béarn" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = FRA version_name = "Béarn Class" } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "FRA" amount = 18 }
-					cv_nav_bomber_equipment_1 =  { owner = "FRA" amount = 18 }
-				}
-			}
+			location = 3552 # Brest
+			ship = { name = "Napoleon" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = FRA version_name = "Napoleon Class" } } }
+			ship = { name = "Révolution française" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = FRA version_name = "Napoleon Class" } } }	
+			ship = { name = "Paris" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Paris Class" } } }
+			ship = { name = "Brennus" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Paris Class" } } }
+			ship = { name = "Charles Martel" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Paris Class" } } }		
+			ship = { name = "Bearn" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Normandie Class" } } }
+			ship = { name = "Flandre" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Normandie Class" } } }
+			ship = { name = "Gascogne" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Normandie Class" } } }
+			ship = { name = "Amiral Charner" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Amiral Charner Class" } } }
+			ship = { name = "Bruix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Amiral Charner Class" } } }
+			ship = { name = "Chanzy" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Amiral Charner Class" } } }
+			ship = { name = "Latouche-Treville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Amiral Charner Class" } } }
+			ship = { name = "Gueydon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Amiral Charner Class" } } }
+			ship = { name = "Leon Gambetta" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Amiral Charner Class" } } }
+			ship = { name = "Montcalm" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Amiral Charner Class" } } }
+			ship = { name = "CL-8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
 			# 2e Division des Contre-Torpilleurs
+			ship = { name = "DD-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-11" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-12" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-15" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-16" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-18" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-19" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-20" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-21" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-22" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-23" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-24" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-25" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-26" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-27" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-29" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-28" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-30" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-31" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
+			ship = { name = "DD-32" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Arquebuse Class" } } }
 			ship = { name = "Jaguar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			ship = { name = "Chacal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			ship = { name = "Léopard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
@@ -80,16 +155,32 @@ units= {
 		naval_base = 911 # Toulon
 		task_force = {				
 			name = "3ème Région Navale"			
-			location = 911 # Toulon	
+			location = 911 # Toulon
+			ship = { name = "Lyon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }
+			ship = { name = "Duquesne" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }
+			ship = { name = "Lille" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }
+			ship = { name = "Tourville" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }	
 			ship = { name = "Courbet" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } } 
 			ship = { name = "France" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }        
 			ship = { name = "Jean Bart" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
+			ship = { name = "Gloire" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Gloire Class" } } }
+			ship = { name = "Marseillaise" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Gloire Class" } } }
+			ship = { name = "Sully" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Gloire Class" } } }
+			ship = { name = "Conde" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Gloire Class" } } }
+			ship = { name = "Amiral Aube" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Gloire Class" } } }
 			ship = { name = "Algérie" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Algérie Class" } } }			
 			ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "CL-1" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "CL-7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
 			# 4e Division des Contre-Torpilleurs
 			ship = { name = "Lynx" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			ship = { name = "Tigre" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
@@ -149,8 +240,10 @@ units= {
 		naval_base = 11834 # Oran
 		task_force = {				
 			name = "Flottille de Haute Mers"			
-			location = 11834 # Oran			
-			ship = { name = "Provence" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
+			location = 11834 # Oran
+			ship = { name = "Normandie" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Normandie Class" } } }
+			ship = { name = "Languedoc" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Normandie Class" } } }			
+			ship = { name = "Provence" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
 			ship = { name = "Lorraine" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
 			ship = { name = "Bretagne" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
 			ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay-Trouin Class" } } }
@@ -317,8 +410,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.60
 		amount = 1
-	}
-	# BC: Dunkerque (Comm. 16-Apr, 1937)	
+	}	
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_heavy_3
@@ -330,12 +422,31 @@ instant_effect = {
 		progress = 0.20
 		amount = 1
 	}
-	# BB: Richelieu	
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_heavy_3
 			creator = "FRA" 
 			version_name = "République Class"
+		}
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_3
+			creator = "FRA" 
+			version_name = "Voltaire Class"
+		}
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_3
+			creator = "FRA" 
+			version_name = "Voltaire Class"
 		}
 		requested_factories = 1
 		progress = 0.10

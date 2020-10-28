@@ -512,6 +512,22 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
+	create_equipment_variant = {
+		name = "Arquebuse Class"				
+		type = ship_hull_light_2
+		name_group = FRA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
 	# Light Cruisers #
 	create_equipment_variant = {
 		name = "Duguay-Trouin Class"			# represents Duguay-Trouin, Pluton, Jeanne d'Arc classes
@@ -600,6 +616,40 @@ if = {
 			rear_1_custom_slot = ship_airplane_launcher_1
 		}
 	}
+	create_equipment_variant = {
+		name = "Gloire Class"				
+		type = ship_hull_cruiser_1
+		name_group = FRA_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			mid_1_custom_slot = ship_medium_battery_2
+			mid_2_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Amiral Charner Class"				
+		type = ship_hull_cruiser_1
+		name_group = FRA_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			mid_1_custom_slot = ship_medium_battery_2
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
 	# Battleships #
 	create_equipment_variant = {
 		name = "Courbet Class"		
@@ -664,36 +714,17 @@ if = {
 		name_group = FRA_BB_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_armor_slot = ship_armor_bb_2
-			front_1_custom_slot = ship_heavy_battery_2
-			mid_1_custom_slot = ship_secondaries_2
-			mid_2_custom_slot = ship_anti_air_2
-			rear_1_custom_slot = ship_heavy_battery_2
-		}
-	}
-	create_equipment_variant = {
-		name = "Lyon Class"				
-		type = ship_hull_heavy_1
-		name_group = FRA_BB_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_2
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_bb_2
-			front_1_custom_slot = ship_heavy_battery_2
-			mid_1_custom_slot = ship_secondaries_2
-			mid_2_custom_slot = ship_anti_air_2
-			rear_1_custom_slot = ship_heavy_battery_2
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_heavy_battery_1
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_1
 		}
 	}
 	create_equipment_variant = {
@@ -792,22 +823,6 @@ if = {
 			mid_2_custom_slot = ship_secondaries_2
 			mid_3_custom_slot = ship_secondaries_2
 			rear_1_custom_slot = ship_super_heavy_battery_1
-		}
-	}
-	# Carriers #
-	create_equipment_variant = {
-		name = "Béarn Class"
-		type = ship_hull_carrier_conversion_bb
-		name_group = FRA_CV_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_deck_slot_1 = ship_deck_space
-			fixed_ship_deck_slot_2 = ship_deck_space
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			mid_1_custom_slot = empty
 		}
 	}
 }
