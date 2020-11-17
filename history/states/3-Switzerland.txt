@@ -1,0 +1,46 @@
+
+state={
+	id=3
+	name="STATE_3"
+	manpower = 4211689
+	resources={
+		aluminium=28
+		steel=14
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = SWI
+		victory_points = { 9620 25 }
+		buildings = {
+			infrastructure = 8
+			arms_factory = 6
+			industrial_complex = 8
+			air_base = 6
+
+			3612 = {
+				bunker = 4
+			}
+			9587 = {
+				bunker = 4
+			}
+			636 = {
+				bunker = 4
+			}
+			6683 = {
+				bunker = 4
+			}
+			9638 = {
+				bunker = 4
+			}
+
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		636 3612 6666 6683 9587 9618 9620 9622 9638 11590 11604 13124 
+	}
+}
