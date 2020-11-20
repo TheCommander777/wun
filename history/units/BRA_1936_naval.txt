@@ -9,6 +9,15 @@ units = {
 		task_force = {
 			name = "Esquadra do Atlântico"
 			location = 10980 # Rio de Janiero
+			ship = { name = "NRB Recife" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Recife Class"} } }
+			ship = { name = "NRB Liberdade" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Recife Class"} } }
+			ship = { name = "NRB Batalha" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Recife Class"} } }
+			ship = { name = "NRB Botucatu" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Recife Class"} } }
+			ship = { name = "NRB Guarani" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Recife Class"} } }
+			ship = { name = "NRB Amazônia" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Amazônia Class"} } }
+			ship = { name = "NRB Iguaçu" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Amazônia Class"} } }
+			ship = { name = "NRB Redentor" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Amazônia Class"} } }
+			ship = { name = "NRB Incomparável" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Amazônia Class"} } }
 			ship = { name = "NRB Minas Gerais" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "Minas Geras Class"} } }
 			ship = { name = "NRB São Paulo" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "Minas Geras Class"} } }
 			ship = { name = "NRB Paraná"  definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "Minas Geras Class"} } }
@@ -17,8 +26,30 @@ units = {
 			ship = { name = "NRB Bragança" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "Orleans Class"} } }
 			ship = { name = "NRB Pacificador" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "Orleans Class"} } }
 			ship = { name = "NRB Glória" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "Orleans Class"} } }
+			ship = { name = "NRB CA-1" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-2" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-3" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-4" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-5" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-6" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-7" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-8" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-9" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
+			ship = { name = "NRB CA-10" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BRA version_name = "Porto Alegre Class"} } }
 			ship = { name = "NRB Bahia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
 			ship = { name = "NRB Rio Grande do Sul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-31" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-32" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-33" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-34" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-35" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-36" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-37" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-38" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-39" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-40" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-41" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
+			ship = { name = "NBR CL-42" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Itamandaré Class"} } }
 			# 1a Flotilla de Contratorpedeiros
 			ship = { name = "NRB Piaui" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Para Class"} } }
 			ship = { name = "NRB Rio Grande do Norte" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Para Class"} } }
@@ -29,12 +60,40 @@ units = {
 			ship = { name = "NRB Sergipe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Para Class"} } }
 			ship = { name = "NRB Santa Catarina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Para Class"} } }
 			ship = { name = "NRB Mato Grosso" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Para Class"} } }
+			ship = { name = "NRB DD-34" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-35" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-36" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-37" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-38" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-39" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-40" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-41" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-42" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-43" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-44" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-45" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-46" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-47" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-48" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-49" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-50" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-51" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-52" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-53" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-54" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-55" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-56" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
 		}
 		task_force = {
 			name = "Armada Imperial"
 			location = 10447 # Porto Alegre
 			ship = { name = "NRB Dom Pedro II" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = BRA version_name = "Dom Pedro Class"} } }
 			ship = { name = "NRB Independência" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = BRA version_name = "Dom Pedro Class"} } }
+			ship = { name = "NRB Fortaleza" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = BRA version_name = "Fortaleza Class"} } }
+			ship = { name = "NRB Londrina" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = BRA version_name = "Fortaleza Class"} } }
+			ship = { name = "NRB Vila Rica" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = BRA version_name = "Fortaleza Class"} } }
+			ship = { name = "NRB Barão de Mauá" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = BRA version_name = "Fortaleza Class"} } }
+			ship = { name = "NRB Duque de Caxias" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = BRA version_name = "Fortaleza Class"} } }
 			ship = { name = "NRB Império do Brasil" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Império Class"} } }
 			ship = { name = "NRB Imperial" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Império Class"} } }
 			ship = { name = "NRB Riachuelo" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Império Class"} } }
@@ -43,6 +102,8 @@ units = {
 			ship = { name = "NRB Vitória" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Império Class"} } }
 			ship = { name = "NRB Brasil" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Brasil Class"} } }
 			ship = { name = "NRB Guardião" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Brasil Class"} } }
+			ship = { name = "NRB Salvador" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Brasil Class"} } }
+			ship = { name = "NRB Lencóis Paulista" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRA version_name = "Brasil Class"} } }
 			ship = { name = "NRB Rio de Janeiro" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Rio de Janeiro Class"} } }
 			ship = { name = "NRB Niterói" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Rio de Janeiro Class"} } }
 			ship = { name = "NRB Barra Bonita" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Rio de Janeiro Class"} } }
@@ -155,8 +216,16 @@ units = {
             ship = { name = "NRB DD-70" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Para Class"} } }
 		}			
 		task_force = {				
-			name = "Flotilha de Submarinos"			
+			name = "Flotilha da Reserva"			
 			location = 10980 # Rio de Janiero
+			ship = { name = "NBR CL-23" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-24" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-25" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-26" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-27" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-28" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-29" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
+			ship = { name = "NBR CL-30" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Bahia Class"} } }
 			ship = { name = "NRB Humaytá" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRA version_name = "Humaytá Class"} } }
 			ship = { name = "NRB SS-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRA version_name = "Humaytá Class"} } }
 			ship = { name = "NRB SS-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRA version_name = "Humaytá Class"} } }
@@ -164,6 +233,39 @@ units = {
 			ship = { name = "NRB SS-4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRA version_name = "Humaytá Class"} } }
 			ship = { name = "NRB SS-5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRA version_name = "Humaytá Class"} } }
 			ship = { name = "NRB SS-6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRA version_name = "Humaytá Class"} } }
+			ship = { name = "NRB DD-1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-22" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-23" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-24" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-25" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-26" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-27" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-28" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-29" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-30" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-31" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-32" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
+			ship = { name = "NRB DD-33" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Caxias Class"} } }
 		}				
 	}
 }
@@ -175,7 +277,6 @@ instant_effect = {
 			creator = "BRA" 
 			version_name = "Dom Pedro Class"
 		}
-		name = "NBR Almirante Tamandaré"
 		requested_factories = 3
 		progress = 0.6
 		amount = 1
@@ -186,9 +287,28 @@ instant_effect = {
 			creator = "BRA" 
 			version_name = "Dom Pedro Class"
 		}
-		name = "NBR Fortaleza"
 		requested_factories = 3
-		progress = 0.45
+		progress = 0.6
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_super_heavy_1
+			creator = "BRA" 
+			version_name = "Dom Pedro Class"
+		}
+		requested_factories = 3
+		progress = 0.3
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_super_heavy_1
+			creator = "BRA" 
+			version_name = "Dom Pedro Class"
+		}
+		requested_factories = 3
+		progress = 0.3
 		amount = 1
 	}
 

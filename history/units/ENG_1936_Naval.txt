@@ -19,6 +19,14 @@
 			ship = { name = "HMS St. David" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "N3 Class"} } }
 			ship = { name = "HMS Lion" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "N3 Class"} } }
 			ship = { name = "HMS Imperial Federation" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "N3 Class"} } }
+			ship = { name = "HMS Australia" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
+			ship = { name = "HMS Aurora" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
+			ship = { name = "HMS Elizabeth" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
+			ship = { name = "HMS St Albans" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
+			ship = { name = "HMS Norwich" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
+			ship = { name = "HMS Bonaventure" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
+			ship = { name = "HMS Greenwich" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
+			ship = { name = "HMS Newcastle" definition = battleship start_experience_factor = 0.7 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Australia Class"} } }
 			ship = { name = "HMS Prince George" definition = battle_cruiser start_experience_factor = 0.7 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "G3 Design"} } }
 			ship = { name = "HMS Nelson" definition = battle_cruiser start_experience_factor = 0.7 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "G3 Design"} } }
 			ship = { name = "HMS Rodney" definition = battle_cruiser start_experience_factor = 0.7 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "G3 Design"} } }
@@ -537,7 +545,7 @@ ship = { name = "HMS DD-151" definition = destroyer equipment = { ship_hull_ligh
 			}
 			ship = { name = "HMS Trafalgar" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
 			ship = { name = "HMS Nile" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
-			ship = { name = "HMS Australia" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
+			ship = { name = "HMS Redoutable" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
 			ship = { name = "HMS India" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
 			ship = { name = "HMS Alexandria" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
 			ship = { name = "HMS Caesar" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }

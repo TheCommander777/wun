@@ -20,15 +20,12 @@ set_technology = {
 	gwtank = 1
 	basic_light_tank = 1
 	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
+	basic_heavy_tank = 1
 	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
 	early_bomber = 1
 	mechanical_computing = 1
-	
 	trench_warfare = 1
-
-	
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
@@ -63,12 +60,14 @@ if = {
 		basic_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_ship_hull_heavy = 1
+		improved_ship_hull_heavy = 1
 		ship_hull_super_heavy = 1
 		early_ship_hull_carrier = 1
 		basic_battery = 1
 		basic_light_battery = 1
 		basic_medium_battery = 1
 		basic_heavy_battery = 1
+		improved_heavy_battery = 1
 		basic_torpedo = 1
 		sonar = 1
 		improved_sonar = 1
@@ -344,6 +343,64 @@ if = {
 		}
 	}
 	create_equipment_variant = {
+		name = "Amazônia Class"
+		type = ship_hull_heavy_2
+		name_group = BRA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_3
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bc_3
+			front_1_custom_slot = ship_heavy_battery_3
+			mid_1_custom_slot = ship_heavy_battery_3
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_heavy_battery_3
+		}
+	}
+	create_equipment_variant = {
+		name = "Fortaleza Class"
+		type = ship_hull_heavy_3
+		name_group = BRA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_3
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bb_3
+			front_1_custom_slot = ship_heavy_battery_3
+			mid_1_custom_slot = ship_heavy_battery_3
+			mid_2_custom_slot = dp_ship_secondaries
+			mid_3_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_heavy_battery_3
+		}
+	}
+	create_equipment_variant = {
+		name = "Recife Class"
+		type = ship_hull_heavy_2
+		name_group = BRA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_3
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_heavy_battery_3
+			mid_1_custom_slot = dp_ship_secondaries
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_heavy_battery_3
+		}
+	}
+	create_equipment_variant = {
 		name = "Dom Pedro Class"
 		type = ship_hull_super_heavy_1
 		name_group = BRA_BB_HISTORICAL
@@ -360,9 +417,9 @@ if = {
 			front_2_custom_slot = ship_super_heavy_battery_1
 			mid_1_custom_slot = dp_ship_secondaries
 			mid_2_custom_slot = empty
-			mid_3_custom_slot = empty
+			mid_3_custom_slot = dp_ship_secondaries
 			rear_1_custom_slot = ship_super_heavy_battery_1
-			rear_2_custom_slot = ship_airplane_launcher_1
+			rear_2_custom_slot = ship_super_heavy_battery_1
 		}
 	}
 	create_equipment_variant = {
@@ -449,6 +506,22 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			mid_1_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = ship_torpedo_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Caxias Class"
+		type = ship_hull_light_1
+		name_group = BRA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_2
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
 	create_equipment_variant = {
