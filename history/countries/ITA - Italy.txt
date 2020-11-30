@@ -77,6 +77,7 @@ if = {
 		basic_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_ship_hull_heavy = 1
+		ship_hull_super_heavy = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
 		improved_airplane_launcher = 1
@@ -97,17 +98,18 @@ if = {
 	give_guarantee = ALB
 }
 
-set_convoys = 400
+set_convoys = 600
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
+	neutrality = 62
 	democratic = 22
-	fascism = 76
+	fascism = 14
 	communism = 2
 }
 
