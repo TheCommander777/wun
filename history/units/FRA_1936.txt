@@ -945,7 +945,7 @@ air_wings = {
 		# Groupement de Chasse 23
 		fighter_equipment_0 = {
 			owner = "FRA" 
-			amount = 192
+			amount = 92
 		}
 		# Groupement de Bombardment 6
 		# Groupement de Bombardment 9
@@ -960,28 +960,7 @@ air_wings = {
 		# Groupement de Chasse 22
 		fighter_equipment_0 = {
 			owner = "FRA" 
-			amount = 96
-		}
-	}
-
-	# Z.d'Op. Aériennes du Alps -- Marseille
-	21 = {
-		# Groupement de Chasse d'Alps
-		fighter_equipment_0 = {
-			owner = "FRA" 
-			amount = 96
-		}
-		# Groupement de Bombardment 1
-		# Groupement de Bombardment 6
-		# Groupement de Bombardment 9
-		tac_bomber_equipment_1 =  {
-			owner = "FRA" 
-			amount = 90
-		}
-		# Groupement de Bombardment d'Assault 19
-		tac_bomber_equipment_0 =  {
-			owner = "FRA" 
-			amount = 24
+			amount = 36
 		}
 	}
 
