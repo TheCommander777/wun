@@ -1111,7 +1111,7 @@ ENG_naval_capital_battleship = {
 	}
 	
 	priority = {
-		factor = 20
+		factor = 250
 		modifier = {
 			factor = 1
 		}
@@ -1121,7 +1121,7 @@ ENG_naval_capital_battleship = {
 	capital_battleship_early = { 
 	
 		priority = {
-			factor = 1
+			factor = -100
 		}
 		role_icon_index = 1
 		
@@ -1157,7 +1157,7 @@ ENG_naval_capital_battleship = {
 	capital_battleship_early_aa_upgrade = { 
 	
 		priority = {
-			factor = 5
+			factor = -100
 			modifier = {
 				factor = 20
 				has_war = yes
@@ -1198,7 +1198,7 @@ ENG_naval_capital_battleship = {
 	capital_battleship_basic = { 
 	
 		priority = {
-			factor = 20
+			factor = -200
 		}
 		role_icon_index = 1
 
@@ -1235,7 +1235,7 @@ ENG_naval_capital_battleship = {
 	capital_battleship_basic_aa_upgrade = {
 	
 		priority = {
-			factor = 5
+			factor = -5
 			modifier = {
 				factor = 100
 				has_war = yes
@@ -1275,7 +1275,7 @@ ENG_naval_capital_battleship = {
 	capital_battleship_improved = { #KGV
 	
 		priority = {
-			factor = 150
+			factor = -150
 		}
 		role_icon_index = 1
 		
@@ -1310,7 +1310,7 @@ ENG_naval_capital_battleship = {
 	capital_battleship_improved_upgrade = { #KGV
 	
 		priority = {
-			factor = 10
+			factor = -10
 		}
 		role_icon_index = 1
 		
@@ -1346,28 +1346,66 @@ ENG_naval_capital_battleship = {
 	capital_battleship_advanced = { #Lion
 	
 		priority = {
-			factor = 10
+			factor = 700
 		}
 		role_icon_index = 1
 		
 		target_variant = {
-			match_value = 4000.0
+			match_value = 14000.0
 			
-			type = ship_hull_heavy
+			type = ship_hull_heavy_3
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_3
-				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_engine_slot > heavy_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries
-				fixed_ship_armor_slot = ship_heavy_armor
-				front_1_custom_slot = ship_anti_air
-				mid_1_custom_slot = ship_anti_air
-				mid_2_custom_slot = ship_secondaries
-				mid_3_custom_slot = ship_airplane_launcher
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_3
+				fixed_ship_secondaries_slot = dp_ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_3
+				front_1_custom_slot = ship_heavy_battery_3
+				mid_1_custom_slot = ship_heavy_battery_3
+				mid_2_custom_slot = dp_ship_secondaries
+				mid_3_custom_slot = dp_ship_secondaries
 				rear_1_custom_slot = ship_heavy_battery_3
-				rear_2_custom_slot = ship_anti_air
+			}
+		}
+		
+		allowed_modules = {
+			ship_anti_air
+			ship_secondaries
+			ship_airplane_launcher
+			ship_heavy_battery
+			ship_radar
+			ship_fire_control_system
+			ship_heavy_armor
+		}
+	}
+	capital_battleship_super = { #Super battleship construction
+	
+		priority = {
+			factor = 400
+		}
+		role_icon_index = 1
+		
+		target_variant = {
+			match_value = 15000.0
+			
+			type = ship_hull_super_heavy_1
+			modules = {
+				fixed_ship_battery_slot = ship_super_heavy_battery_1
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries
+				fixed_ship_armor_slot = ship_armor_shbb
+				front_1_custom_slot = ship_anti_air_2
+				front_2_custom_slot = ship_super_heavy_battery_1
+				mid_1_custom_slot = dp_ship_secondaries
+				mid_2_custom_slot = dp_ship_secondaries
+				mid_3_custom_slot = dp_ship_secondaries
+				rear_1_custom_slot = ship_super_heavy_battery_1
+				rear_2_custom_slot = ship_super_heavy_battery_1
 			}
 		}
 		
@@ -1399,13 +1437,13 @@ ENG_naval_capital_bc = {
 	}
 	
 	priority = {
-		factor = 25
+		factor = 250
 	}
 
 	battlecruiser_early = {
 	
 		priority = {
-			factor = 1
+			factor = 10
 		}
 		role_icon_index = 1
 		
@@ -1521,7 +1559,7 @@ ENG_naval_capital_bc = {
 	battlecruiser_improved_upgrade = {
 	
 		priority = {
-			factor = 10
+			factor = 100
 			modifier = {
 				has_war = yes
 				factor = 10

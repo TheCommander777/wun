@@ -11,9 +11,7 @@ bookmarks = {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				
 			}
 			focuses = {
 				
@@ -23,9 +21,7 @@ bookmarks = {
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
+			
 			}
 			focuses = {
 				#Mod ones#
@@ -36,9 +32,13 @@ bookmarks = {
 			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
 			ideas = {
-				stiff_upper_lip
-				british_naval_budget
 				george_v
+				ENG_pax
+				british_naval_budget
+				imperial_navy
+				imperial_airforce
+				imperial_army
+				splendid_isolation
 			}
 			focuses = {
 				#Mod Ones#
@@ -49,9 +49,13 @@ bookmarks = {
 			ideology = democratic
 			available = { NOT = { has_dlc = "Man the Guns" } }
 			ideas = {
-				stiff_upper_lip
 				george_v
+				ENG_pax
 				british_naval_budget
+				imperial_navy
+				imperial_airforce
+				imperial_army
+				splendid_isolation
 			}
 			focuses = {
 				#Mod#
@@ -59,12 +63,13 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
+				german_army
+			    german_air_force
+			    kaiserliche
+			    mittel_europa
 			}
 			focuses = {
 				#Mod#
@@ -72,12 +77,13 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
+				german_army
+			    german_air_force
+			    kaiserliche
+			    mittel_europa
 			}
 			focuses = {
 				GER_anschluss
@@ -113,13 +119,10 @@ bookmarks = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
+				
 			}
 			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
+				
 			}	
 		}
 
@@ -134,41 +137,35 @@ bookmarks = {
 			history = "RAJ_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				RAJ_agrarian_society
-				RAJ_princely_states
+				
 			}
 			focuses = {
-				RAJ_all_india_forward_bloc
-				RAJ_indian_gurkhas
-				RAJ_the_smiling_buddha
+				
 			}
 		}
-		"CZE"={
+		"AUS"={
 			minor = yes
-			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				CZE_skoda_works
-				CZE_divided_nation
+				austrian_army
+				austrian_navy
+				austrian_airforce
 			}
 			focuses = {
-				CZE_sudeten_1
-				CZE_industrial_legacy
-				CZE_military_research_institute
+				
 			}
 		}
 
-		"HUN"={
+		"ITA"={
 			minor = yes
-			history = "HUN_GATHERING_STORM_DESC"
+			history = "ITA_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				HUN_treaty_of_triannon
+				
 			}
 			focuses = {
-				HUN_proclaim_the_restoration_of_austria_hungary
-				HUN_secret_rearmament
-				HUN_renounce_the_treaty_of_trianon
+				
 			}
 		}
 
