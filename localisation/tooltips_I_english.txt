@@ -1,0 +1,2 @@
+l_english:
+ ENG_communism_collapse_tt:0 "The Imperial Federation will collapse"

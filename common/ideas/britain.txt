@@ -54,6 +54,50 @@ ideas = {
 			}
         }
 
+        imperial_fascism = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		democratic_drift = -0.1
+        		fascism_drift = 0.15
+				war_support_weekly = 0.001
+				political_power_factor = 0.1
+        	}	
+        }
+
+        imperial_absolute = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		democratic_drift = -0.1
+        		neutrality_drift = 0.15
+        		political_power_factor = 0.2
+        	}
+        }
+
+        imperial_communism = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		democratic_drift = -0.1
+        		communism_drift = 0.15
+        		war_support_weekly = 0.001
+        		political_power_factor = 0.1
+        	}
+        }
+
 
 		george_v = {
 			
