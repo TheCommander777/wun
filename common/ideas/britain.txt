@@ -79,7 +79,7 @@ ideas = {
         	modifier = {
         		democratic_drift = -0.1
         		neutrality_drift = 0.15
-        		political_power_factor = 0.2
+        		political_power_factor = 0.15
         	}
         }
 
@@ -97,6 +97,195 @@ ideas = {
         		political_power_factor = 0.1
         	}
         }
+
+        imperial_project = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		consumer_goods_factor = 0.05
+        	}
+        }
+
+        imperial_large_project = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		consumer_goods_factor = 0.1
+        	}
+        }
+
+        imperialism_edward = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		stability_factor = -0.2
+        		justify_war_goal_time = -0.25
+        		war_support_factor = 0.25
+        	}
+        }
+
+        imperial_huge_project = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		consumer_goods_factor = 0.2
+        	}
+        }
+
+        imperial_throne = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		stability_factor = 0.1
+
+        		neutrality_drift = 0.1
+        	}
+        }
+
+        imperial_factories = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+				production_speed_arms_factory_factor = 0.15
+				industrial_capacity_factory = 0.1
+        	}
+        }
+
+        fight_king = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = no
+        	}
+        	modifier = {
+        		conscription_factor = 0.1
+        	}
+        }
+
+        benevolent_king = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = no
+        	}
+        	modifier = {
+        		production_speed_infrastructure_factor = 0.25
+        		production_speed_naval_base_factor = 0.25
+        		consumer_good_factor = 0.1
+        		conscription_factor = 0.15
+        		research_speed_factor = 0.15
+        	}
+        }
+
+        imperial_autarky = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.3
+        	}
+
+        }
+
+        ENG_churchill = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		war_support_factor = 0.1
+        		political_power_factor = 0.05
+        		consumer_goods_factor = -0.1
+        	}
+
+        }
+
+        ENG_baldwin = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		stability_factor = 0.1
+        		political_advisor_cost_factor = -0.25
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				high_command_cost_factor = -0.25
+				air_chief_cost_factor = -0.25
+				army_chief_cost_factor = -0.25
+				navy_chief_cost_factor = -0.25
+        	}
+
+        }
+        
+        ENG_RBB = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		global_building_slots_factor = 0.1
+        		trade_opinion_factor = 0.25
+        	}
+
+        }
+
+        ENG_lyon = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		conscription = 0.05
+        		production_speed_buildings_factor = 0.05
+        	}
+
+        }
+
+
+
+
 
 
 		george_v = {
@@ -292,7 +481,7 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.1
-				industrial_capacity_dockyard = 0.2
+				industrial_capacity_dockyard = 0.1
 
 			}
 		}

@@ -117,7 +117,6 @@ if = {
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
-    
 	george_v
 	ENG_pax
 	british_naval_budget
@@ -376,6 +375,7 @@ create_country_leader = {
 #	traits = {
 #		conservative_grandee
 #       rearmer
+		popular_king
 #	}
 #}
 
