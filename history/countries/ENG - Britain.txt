@@ -16,7 +16,7 @@ load_oob = "ENG_Motorized"
 set_research_slots = 5
 
 set_stability = 0.8
-set_war_support = 0.2
+set_war_support = 0.25
 set_convoys = 2800
 # Starting tech
 set_technology = {
@@ -117,14 +117,14 @@ if = {
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
-	george_v
 	ENG_pax
 	british_naval_budget
+	imperial_multicultural
+	imperial_overextention
 	imperial_navy
 	imperial_airforce
 	imperial_army
 	splendid_isolation
-	
 	free_trade
 }
 	
