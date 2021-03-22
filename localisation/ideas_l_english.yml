@@ -2714,4 +2714,11 @@
  gold_standard_desc:0 "The Gold Standard is a monetary system designed to use a fixed quantity of gold to measure a standard economic unit of account. The Gold Standard can be used reliably due to being backed by reserves of the commodity, however it may limit economic growth in the long term and may be disastrous in the case of a economic crisis."
  twenty_plan:0 "Twenty Years Plan"
  twenty_plan_desc:0 "The Twenty Years Plan was established in 1920 as a massive public works construction program, as a result the Imperial Federation is rapidly industrializing, new railways are being built and poverty in Africa will be reduced in the long term."
- 
+ empire_office:0 "Empire and Dominions Office"
+ empire_office_desc:0 "The Empire and Dominions Office is the successor of the Secretary of State for the Colonies after the unification of the British Empire, tasked with the administration and well-being of the peoples within the Imperial Federation, particularly in the regions outside of Europe."
+ empire_office_2:0 "Empire and Dominions Office"
+ empire_office_2_desc:0 "The Empire and Dominions Office is the successor of the Secretary of State for the Colonies after the unification of the British Empire, tasked with the administration and well-being of the peoples within the Imperial Federation, particularly in the regions outside of Europe."
+ africa_res:0 "African Resource Extraction"
+ asia_res:0 "Asian Resource Extraction"
+ america_res:0 "American Resource Extraction"
+ mid_res:0 "Middle Eastern Resource Extraction"

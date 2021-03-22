@@ -54,6 +54,77 @@ ideas = {
         	}
         }
 
+        empire_office = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		local_resources_factor = 0.05
+        	}
+        }
+
+        africa_res = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		local_resources_factor = 0.02
+        	}
+        }
+        asia_res = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		local_resources_factor = 0.02
+        	}
+        }
+        america_res = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		local_resources_factor = 0.02
+        	}
+        }
+        mid_res = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		local_resources_factor = 0.02
+        	}
+        }
+
+        empire_office_2 = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		local_resources_factor = 0.2
+        		consumer_goods_factor = -0.05
+        		production_speed_infrastructure_factor = 0.25
+        	}
+        }
+
         gold_standard = {
         	allowed = {
         		original_tag = ENG
