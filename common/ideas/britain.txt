@@ -29,6 +29,18 @@ ideas = {
         	}
         }
 
+        imperial_overextention_2 = {
+        	allowed = {
+        		orifinal_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		political_power_factor = -0.1
+        	}
+        }
+
         imperial_multicultural = {
         	allowed = {
         		original_tag = ENG
@@ -40,6 +52,57 @@ ideas = {
         		conscription_factor = -0.4
         		stability_factor = -0.3
         		war_support_factor = -0.2
+        	}
+        }
+
+        imperial_multicultural_2 = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		conscription_factor = -0.2
+        		stability_factor = -0.2
+        		war_support_factor = -0.1
+        	}
+        }
+
+        imperial_multicultural_3 = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		stability_factor = -0.1
+        	}
+        }
+
+        acceptance = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		stability_weekly = 0.01
+        	}
+        }
+
+        subsidies = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+        		political_power_cost = 0.2
+        		consumer_goods_factor = 0.1
         	}
         }
 
@@ -127,6 +190,39 @@ ideas = {
         		production_speed_infrastructure_factor = 0.1
         	}
         }
+
+        industrial_revolution = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				consumer_good_factor = -0.05
+        	}
+        }
+
+        industrial_evolution = {
+        	allowed = {
+        		original_tag = ENG
+        	}
+        	allowed_civil_war = {
+        		always = yes
+        	}
+        	modifier = {
+				industrial_capacity_factory = 0.3
+				industrial_capacity_dockyard = 0.3
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				consumer_good_factor = -0.1
+        	}
+        }
+
 
         gold_standard = {
         	allowed = {

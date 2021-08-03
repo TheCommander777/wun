@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  fascist_influence:0 "Fascist Influence"
  fascist_influence_desc:0 "Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists."
  communist_influence:0 "Communist Influence"
@@ -2722,3 +2722,18 @@
  asia_res:0 "Asian Resource Extraction"
  america_res:0 "American Resource Extraction"
  mid_res:0 "Middle Eastern Resource Extraction"
+ imperial_overextention_2:0 "Reduced Overextension"
+ imperial_overextention_2_desc:0 "With the advances and infrastructure construction in the overseas imperial territories, overextension has been largely reduced throughout the Federation."
+ imperial_multicultural_2:0 "Institutionalized Multiculturalism"
+ imperial_multicultural_2_desc:0 "The Imperial Federation officially embraces and supports all cultures, races and religions within the Empire, all men are completly considered equal under the law, regardless of their background. This new policy has consistently proven to effective in reducing and smashing separatist sentiment throughout the overseas territories, the Empire is at last one!"
+ industrial_revolution:0 "A New Industrial Boom"
+ industrial_revolution_desc:0 "This new wave of Industrialization within the Imperial Federation will reassure our economic supremacy in comparison to the other Great Powers, production methods must be inovated, industrial facilities must be expanded and productivity increased."
+ subsidies:0 "Subsidies Program"
+ subsidies_desc:0 "The Program has as its goal to secure the allegiance and acceptance of the local minority cultures within the Empire and therefore reduce the problems of Overextension and multiculturalism."
+ imperial_multicultural_2:0 "Multiculturalism"
+ imperial_multicultural_2_desc:0 "The Imperial Federation is home to hundreds of different peoples with their respective religions and cultures, many of these peoples have accepted the Imperial Federation as their rightful nation and are willing to fight for the Empire, however there are some who have declared themselves as rivals to the Federation."
+ acceptance:0 "Native Acceptance"
+ acceptance_desc:0 "The many cultures all across the Imperial Federation are beginning to pldge their loyalty and service to the Empire, that is the result of our great effort in introducing massive welfare programs to Asia and Africa."
+ imperial_multicultural_3:0 "Cultural Assimilation Policies"
+ imperial_multicultural_3_desc:0 "The many cultures within the Empire have been appeased, and laws were made to ensure their liberty to live their lives without the intervention from the government, following their own religion and cultures."
+ 
