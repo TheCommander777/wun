@@ -7,7 +7,7 @@
 		task_force = {
 			name = "Grand Fleet"
 			location = 11064 # Scapa Flow
-			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } 
+			ship = { name = "HMS Ark Royal" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Ark Royal Class" } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "ENG" amount = 18 }
 					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 12 }
@@ -253,7 +253,7 @@ ship = { name = "HMS DD-251" definition = destroyer equipment = { ship_hull_ligh
 		task_force = {
 			name = "Channel Force"			
 			location = 9458 # Portsmouth
-			ship = { name = "HMS Courageous" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } }
+			ship = { name = "HMS Courageous" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Ark Royal Class" } }
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "ENG" amount = 18 }
 					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 24 }
@@ -537,12 +537,6 @@ ship = { name = "HMS DD-151" definition = destroyer equipment = { ship_hull_ligh
 		task_force = {
 			name = "Mediterranean Fleet"
 			location = 4076 # Alexandria
-			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "ENG" amount = 9 } #historical 9
-					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 36 } #historical 36
-				}
-			}
 			ship = { name = "HMS Trafalgar" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
 			ship = { name = "HMS Nile" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
 			ship = { name = "HMS Redoutable" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Trafalgar Class" } } }
@@ -764,12 +758,6 @@ ship = { name = "HMS DD-100" definition = destroyer equipment = { ship_hull_ligh
 		task_force = {				
 			name = "East Indies Fleet"
 			location = 10201 # Trincomalee, Ceylon
-			ship = { name = "HMS Hermes" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = ENG version_name = "Hermes Class" } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "ENG" amount = 8 }
-					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 12 }
-				}
-			}
 			ship = { name = "HMS Queen Victoria" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Queen Victoria Class"} } }
 			ship = { name = "HMS Royal Navy" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Queen Victoria Class"} } }
 			ship = { name = "HMS Jerusalem" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Queen Victoria Class"} } }
@@ -785,12 +773,6 @@ ship = { name = "HMS DD-100" definition = destroyer equipment = { ship_hull_ligh
 		task_force = {				
 			name = "China Fleet"
 			location = 10062 # Hong Kong			
-			ship = { name = "HMS Eagle" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Eagle Class" } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "ENG" amount = 12 }
-					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 12 }
-				}
-			}
 			ship = { name = "HMS Centurion" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Centurion Class"} } }
 			ship = { name = "HMS August" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Centurion Class"} } }
 			ship = { name = "HMS Leopard" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Centurion Class"} } }
