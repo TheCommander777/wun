@@ -45,7 +45,7 @@ ideas = {
 		       navy_capital_ship_defence_factor = 0.05
 		    }
 		    research_bonus = {
-               naval_equipment = 0.15
+               naval_equipment = 0.1
 		    }
 		}
 

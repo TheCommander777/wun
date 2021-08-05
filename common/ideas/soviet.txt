@@ -7,7 +7,9 @@ ideas = {
 	        removal_cost = -1
 
 	        modifier = {
-	        ##PLACEHOLDER##
+	        	conscription_factor = 0.25
+	        	war_support_factor = 0.1
+	        	army_org_factor = 0.05
 	        }
 	    }
 
@@ -18,8 +20,28 @@ ideas = {
 	        removal_cost = -1
 
 	        modifier = {
-	        ##PLACEHOLDER##
+		       navy_capital_ship_attack_factor = -0.05
+		       navy_capital_ship_defence_factor = -0.05
+		       naval_equipment_upgrade_xp_cost = -0.1
 	        }
+	        equipment_bonus = {
+				ship_hull_heavy = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_submarine = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+
 	    }
 
 	      russian_airforce = {
@@ -29,8 +51,55 @@ ideas = {
 	        removal_cost = -1
 
 	        modifier = {
-	        ##PLACEHOLDER##
+	        	
 	        }
+	    }
+	    victory_russia = {
+	    	allowed = {
+	    		original_tag = SOV
+	    	}
+	    	removal_cost = -1
+
+	    	modifier = {
+	    		stability_factor = 0.1
+	    		political_power_factor = 0.2
+	    	}
+	    	research_bonus = {
+				land_doctrine = -0.25
+			}
+	    }
+	    rapid_industry = {
+	    	allowed = {
+	    		original_tag = SOV
+	    	}
+	    	removal_cost = -1
+
+	    	modifier = {
+	    		consumer_goods_factor = 0.05
+	    		production_speed_arms_factory_factor = 0.2
+	    		production_speed_industrial_complex_factor = 0.2
+	    	}
+	    }
+	    russian_export = {
+	    	allowed = {
+	    		original_tag = SOV
+	    	}
+	    	removal_cost = -1
+
+	    	modifier = {
+	    		local_resources_factor = 0.15
+	    		min_export = 0.2
+	    	}
+	    }
+	    possible_revolution = {
+	    	allowed = {
+	    		original_tag = SOV
+	    	}
+	    	removal_cost = -1
+
+	    	modifier = {
+	    		communism_drift = 0.02
+	    	}
 	    }
 
 

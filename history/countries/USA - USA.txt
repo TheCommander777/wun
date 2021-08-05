@@ -249,18 +249,18 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	democratic = 65
+	communism = 15
+	fascism = 20
 }
 
 add_ideas = {
-	undisturbed_isolation
 	free_trade
 	home_of_the_free
 	american_army
 	american_navy
 	american_airforce
-	pioneer_carrier
+	broken_hegemony
 }
 
 

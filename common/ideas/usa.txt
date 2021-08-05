@@ -31,6 +31,16 @@ ideas = {
              ##PLACEHOLDER##
             }
         }
+        broken_hegemony = {
+        	allowed = {
+        		original_tag = USA
+        	}
+        	removal_cost = -1
+        	modifier = {
+        		stability_factor = -0.1
+        		political_power_cost = 0.4
+        	}
+        }
        	pioneer_carrier = {
        		allowed = {
        			original_tag = USA
