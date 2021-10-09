@@ -2,6 +2,28 @@ ideas = {
 
 	country = {
 
+		after = {
+		 	allowed = {
+		 		original_tag = FRA
+		 	}
+		 	removal_cost = -1
+		 	picture = generic_production_bonus
+		 	modifier = {
+		 		political_power_factor = -0.1
+        		consumer_goods_factor = 0.1
+        		conscription_factor = -0.25
+		 	}
+		}
+		forts = {
+			allowed = {
+				original_tag = FRA
+			}
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.4
+			}
+		}
 	    french_army = {
 	        allowed = {
 	           original_tag = FRA

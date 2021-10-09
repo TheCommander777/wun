@@ -2753,3 +2753,7 @@
  russian_export_desc:0 "The Russian Empire is a behemoth with huge quantities of raw materials that are being exported to other nations."
  broken_hegemony:0 "Shattered Hegemony"
  broken_hegemony_desc:0 "The Monroe Doctrine proved to be a failure in the last decades, due to the rise of a powerful Imperial Federation to the North and the Empire of Brazil rise to the status of Great Power in South America."
+ after:0 "Aftermath of the 4-year Crisis"
+ after_desc:0 "The massive economic crisis suffered by France between 1920 and 1924 still has consequences over the quality of life for the average civilians."
+ forts:0 "Maginot System"
+ forts_desc:0 "The fortifications of the Maginot System are an essential part of the French armed forces doctrines, built for self defense against Germany."

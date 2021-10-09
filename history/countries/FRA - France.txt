@@ -106,6 +106,12 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+	after
+	forts
+	french_army
+	french_navy
+	french_airforce
+
 }
 
 #Order matters here Daladier will start as leaders because added last
